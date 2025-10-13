@@ -1,4 +1,4 @@
-# Write a python program to print the content of a directory using the os module .
+# Write a python program to print the content of a current directory using the os module .
 
 import os
 
