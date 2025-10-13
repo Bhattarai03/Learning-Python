@@ -29,6 +29,6 @@ print(h)
 print (i)
 
 # Logical operator
-''' and gate (display true when both of input  are true otherwise false)
-    or gate   (display true when any one or both of input  are  true otherwise false)
+''' and gate (display true when both of the input  are true otherwise false)
+    or gate   (display true when any one or both of  the input  are  true otherwise false)
     not gate (display true when input is  false and viceversa)'''
