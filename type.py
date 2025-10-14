@@ -35,4 +35,3 @@ l=34.56
 n=str(l)
 v=type(l)
 print(v)
-# hello 
