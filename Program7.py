@@ -1,4 +1,4 @@
-# Use  comparision operator to find out whether a given variable a is greater than b or not .Take a=30  and b=84
+# Use  comparision operator to find out whether a given variable a is greater than b or not.
  
 a=int(input("Enter the value of a:"))
 b=int(input("Enter the value of b:"))
