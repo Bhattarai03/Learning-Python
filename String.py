@@ -28,14 +28,14 @@ e=d[1:6:3]
 print(e)
 
 # String Function
-x="raman is hero"
+x="raman "
 
-print(len(x)) # It is used to count the length of the string.i.e 5 here,
+print(len(x)) # It is used to count the length of the string.
 print(x.endswith("man") )# It is used to check whether the name ends with Man or not
 print(x.startswith("Ram"))# It is used to check whether the name starts with Ram or not
 print(x.capitalize()) # It is used to capitalize the  first letter of the string
 print(x.title())  # It is used to capitalize the first letter of the world in the  entire sentences
-print(x.replace("hero","brilliant"))
+print(x.replace("raman","Rhino"))
 
 
 # Escape sequence
