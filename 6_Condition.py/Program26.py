@@ -2,7 +2,7 @@
 
 a=str(input("Enter a post caption of facebook:"))
 
-if( "Raman" in a):
+if( "Raman".upper() in a.upper()):
     print("The given caption is about  Raman")
 else:
     print("The given caption is not about Raman")
