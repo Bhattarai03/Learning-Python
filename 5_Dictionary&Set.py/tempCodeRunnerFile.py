@@ -1,0 +1,6 @@
+i=str(input("Enter Name :")) 
+# b=str(input("Enter FAV LANGUAGE :")) 
+# g=str(input("Enter Name :")) 
+# c=str(input("Enter FAV LANGUAGE :")) 
+# h=str(input("Enter Name :")) 
+# d=str(input("Enter FAV LANGUAGE :")) 
