@@ -9,9 +9,6 @@ class Employee:
          self.language=language
          self.salary=salary
 
-
-    def func(self):
-        print(f" The language is {self.language} and salary is {self.salary}")
     
     @staticmethod   # It mean we do not need any properties from the object.
     def hello():    # No self because we don't  need properties from the object.
@@ -21,3 +18,4 @@ class Employee:
 
 Rohan=Employee("Rohan","Javascript",1300000)
 print(Rohan.name,Rohan.language,Rohan.salary)
+Rohan.hello()

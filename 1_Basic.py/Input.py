@@ -18,6 +18,6 @@ c=int(input("Enter 1st number :"))
 d=int(input("Enter 2nd number:"))
 
 print("number 1 is ",c)
-print("nNumber 2 is ",d)
+print("number 2 is ",d)
 print("sum is :",c+d)
 
