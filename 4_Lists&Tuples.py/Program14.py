@@ -1,4 +1,4 @@
-# Write a program to accept marks of 6 students and display them in a sorted manner.
+# Write a program to accept marks of 6 students and display them in a sorted manner and also count how many student score 45.
 
 mark=[]
 a=float(input("Enter a mark of 1st student : "))
@@ -19,8 +19,10 @@ mark.append(f)
 mark.sort()
 print(mark)
 
+
 x=mark.count(45)
-print(x)
+if x==0:
+    print("No one score 45")
 
 
 print(sum(mark))

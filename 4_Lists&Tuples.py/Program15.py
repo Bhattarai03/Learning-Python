@@ -21,3 +21,4 @@ fruit.append(f)
 fruit.append(g)
 
 print("Fruit =",fruit)
+
