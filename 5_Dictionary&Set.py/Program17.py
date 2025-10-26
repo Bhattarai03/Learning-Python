@@ -10,7 +10,7 @@ g=int(input("Enter a 7th number :"))
 h=int(input("Enter a 8th number :"))
 i=int(input("Enter a 9th number :"))
 
-num={a,b,c,d,e,f,g,h}
+num={a,b,c,d,e,f,g,h,i}
 print(num)
 # num.add(69)
 # print(num)

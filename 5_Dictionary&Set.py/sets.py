@@ -8,7 +8,7 @@ e.add(54)
 print(e,type(e))
 e.remove(4)
 print(e,type(e))
-e.pop() # It is used to remove random object in the set
+e.pop() # It is used to remove first element from the set
 print(e)
 
 # Example of list to avoid confusion
@@ -24,8 +24,8 @@ print(d,type(d))
 # Set Union Intersection
 q={1,2,3,4,5}
 r={3,7,8,5,90,45}
-t={2,3,4,5,6,7}
-print(q.union(r))
+t={2,3,4,5,6,7,31}
+print(q.union(r,t))
 
 # Set intersection
 print(q.intersection(r,t))

@@ -8,4 +8,4 @@ a={
 }
 b=str(input("enter the word you want a meaning of:")
       )
-print(a[b])
+print(f"The english meaning of {b} is {a[b]}.")
