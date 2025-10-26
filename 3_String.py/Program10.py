@@ -2,4 +2,4 @@
 
 a=str(input("Enter a name :"))
 t=a.capitalize()
-print("Good Afternoon",t)
+print(f"Good Afternoon {t}")
