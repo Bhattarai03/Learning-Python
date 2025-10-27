@@ -15,7 +15,7 @@ func()
 
 def nam():
     b=str(input("Enter a Name:"))
-    print(f"GOod Morning,",b)
+    print(f"Good Morning,",b)
 
 nam()
 nam()

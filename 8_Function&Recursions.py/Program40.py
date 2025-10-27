@@ -9,7 +9,8 @@ def mul(a):
          for i in range(1,11):
              print(f"{a}*{i} =",a*i)
 
-mul(a)
+b=mul(a)
+print(f"Value:{b},\n If the value is none .It means the number is greater than zero.\n Otherwise the number is invalid")
          
   
 

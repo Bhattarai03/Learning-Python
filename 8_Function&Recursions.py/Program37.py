@@ -4,17 +4,27 @@
 **
 *
 '''
+def fun():
+     x=int(input("Enter a number above zero:"))
+     while(x==0):
+          fun()
+     for  i in range(1,x+1):
+          print("*"*x)
+          x-=1
+     return 0
+n=int(input("Enter a number :"))
+if n==0:
+     print(f"The number is invalid.Reenter a value.")
+     fun()
 
-n=int(input("Enter a number:"))
+       
 
 def h(n):
-    if n==0:
-        return("The number is invalid")
-    else:
-         for i in range(1,n+1):
-             
-              print("*"* n)
-              n-=1
+    for i in range(1,n+1):
+         print("*"*n)
+         n-=1
+
+    
 
 h(n)
 
