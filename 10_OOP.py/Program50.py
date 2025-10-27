@@ -8,6 +8,8 @@ class Programmer():
         self.salary=salary
         self.age=age
         self.role=role
+        print(f"Name:{self.name}\n Language:{self.language}\n Salary:Rs{self.salary}\nAge:{self.age}\n Role:{self.role}")
 
-raman=Programmer("Raman Raj Bhattarai","Python",10000000,19,"Senior Ai Security Engineer")       
-print(f"Name:{raman.name}\n Language:{raman.language}\n Salary:Rs{raman.salary}\nAge:{raman.age}\n Role:{raman.role}")
+raman=Programmer("Raman Raj Bhattarai","Python",10000000,19,"Senior Ai Security Engineer")
+
+ram=Programmer("Raman Raj ","Python",10000000,19,"Senior Ai Security Engineer")
